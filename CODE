@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My Personal profile</title>
+
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin:20px;
+        }
+
+        header, section, footer{
+            background:white;
+            padding:15px;
+            margin-bottom:15px;
+            border:1px solid gray;
+        }
+
+        header{
+            text-align:center;
+            background-color:lightblue;
+        }
+
+        img{
+            width:120px;
+            height:120px;
+            border-radius:50%;
+        }
+
+        table{
+            width:100%;
+            border-collapse:collapse;
+        }
+
+        table,th,td{
+            border:1px solid black;
+            padding:8px;
+            text-align:center;
+        }
+
+        progress{
+            width:200px;
+        }
+
+        input,textarea,select{
+            margin:5px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+<!-- Header -->
+
+<header>
+
+    
+
+    <h1>Dafni Tabitha</h1>
+
+    <p>Computer Science Student</p>
+
+</header>
+
+<!-- About -->
+
+<section>
+
+<h2>About Me</h2>
+
+<p>
+Hello! My name is <b>Dafni Tabitha</b>. I am a B.Tech Computer Science and Engineering student at Karunya Institute of Technology and Sciences. I am passionate about web development, programming, and learning new technologies. My interests include HTML, CSS, Python, Java, and creating creative websites. I enjoy improving my technical skills through projects and experiments, and I am always eager to learn something new.
+</p>
+
+</section>
+
+<!-- Skills -->
+
+<section>
+
+<h2>Skills</h2>
+
+HTML
+<progress value="90" max="100"></progress>
+<br><br>
+
+CSS
+<progress value="80" max="100"></progress>
+<br><br>
+
+Python
+<progress value="75" max="100"></progress>
+
+</section>
+
+<!-- Table -->
+
+<section>
+
+<h2>Education</h2>
+
+<table>
+
+<tr>
+<th>Course</th>
+<th>College</th>
+<th>Year</th>
+</tr>
+
+<tr>
+<td>B.Tech CSE</td>
+<td>Karunya University</td>
+<td>2026</td>
+</tr>
+
+</table>
+
+</section>
+
+<!-- Personal Form -->
+
+<section>
+
+<h2>Personal Information</h2>
+
+<form>
+
+<fieldset>
+
+<legend>Personal Details</legend>
+
+<label>Name:</label><br>
+<input type="text"><br><br>
+
+<label>Password:</label><br>
+<input type="password"><br><br>
+
+<label>Age:</label><br>
+<input type="number"><br><br>
+
+<label>Gender:</label><br>
+<input type="radio" name="gender"> Male
+<input type="radio" name="gender"> Female
+<br><br>
+
+<label>Date of Birth:</label><br>
+<input type="date"><br><br>
+
+<label>Favourite Colour:</label><br>
+<input type="color"><br><br>
+
+<label>Upload File:</label><br>
+<input type="file">
+
+</fieldset>
+
+</form>
+
+</section>
+
+<!-- Contact Form -->
+
+<section>
+
+<h2>Contact Information</h2>
+
+<form>
+
+<fieldset>
+
+<legend>Contact Details</legend>
+
+<label>Address:</label><br>
+
+<textarea rows="4" cols="40"></textarea>
+
+<br><br>
+
+<label>State:</label><br>
+
+<select>
+
+<option>Tamil Nadu</option>
+<option>Kerala</option>
+<option>Karnataka</option>
+
+</select>
+
+<br><br>
+
+<label>Zip Code:</label><br>
+
+<input type="text">
+
+<br><br>
+
+<label>Phone:</label><br>
+
+<input type="tel">
+
+<br><br>
+
+<label>Email:</label><br>
+
+<input type="email">
+
+<br><br>
+
+<label>Website:</label><br>
+
+<input type="url">
+
+<br><br>
+
+<input type="checkbox">
+I agree to the Terms and Conditions
+
+<br><br>
+
+<input type="submit" value="Submit">
+
+</fieldset>
+
+</form>
+
+</section>
+
+<!-- Video -->
+
+<section>
+
+<h2>Video</h2>
+
+<video width="400" controls>
+
+<source src="C:\Users\Dafni\Downloads\vidssave.com The Breathtaking Beauty of Nature _ HD 360P.mp4" type="video/mp4">
+
+</video>
+
+</section>
+
+<!-- Audio -->
+
+<section>
+
+<h2>Audio</h2>
+
+<audio controls>
+
+<source src="sample.mp3" type="audio/mpeg">
+
+</audio>
+
+</section>
+
+
+<!-- PDF -->
+
+<section>
+
+<h2>Document</h2>
+
+<iframe src="C:\Users\Dafni\OneDrive\Documents\WEBTECH\URK24CS1124 WEBTECH EX1 (1).pdf" width="500" height="300"></iframe>
+
+</section>
+
+<!-- Google Map -->
+
+<section>
+
+<h2>Google Map</h2>
+
+<iframe
+src="https://www.google.com/maps?q=Karunya%20Institute%20of%20Technology&output=embed"
+width="500"
+height="300">
+</iframe>
+
+</section>
+
+<!-- Footer -->
+
+<footer>
+
+<p align="center">
+© 2026 Dafni Tabitha 
+</p>
+
+</footer>
+
+</body>
+</html>
